@@ -9,6 +9,26 @@ Sistema simples em Java para gerenciamento de alunos e treinos em uma academia, 
 - Banco de dados MySQL xampp
 - IDE como netbeans o qual foi usado
 
+## Tecnologias Utilizadas
+
+Java 24 (com preview features)
+Maven - automação de build
+MySQL - banco de dados relacional
+JDBC - conexão com o banco de dados
+Estrutura do Projeto
+Modelos:
+
+Aluno.java - representa um aluno.
+Treino.java - representa um treino.
+DAOs:
+
+AlunoDAO.java - operações CRUD para alunos.
+TreinoDAO.java - operações CRUD para treinos.
+Outros:
+
+MenuPrincipal.java - interface de interação via console.
+ConnectionFactory.java - gerenciamento da conexão com o banco de dados.
+
 ## Configuração do Banco de Dados
 
 Crie um banco de dados no MySQL:
